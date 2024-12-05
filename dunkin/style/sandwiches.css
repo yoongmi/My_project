@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#content{position:relative;}
+#content .banner {position:absolute; top:0; left:50%; height:439px; margin-left:-1000px;}
+
+#content .hot_sandwiches { width:1200px; margin:330px auto 0;  }
+#content div h3{  height:27px; text-align:center; background:url(../images/sandwiches/line_title.png) no-repeat;  line-height:25px;}
+#content div h3 a{color:#fff; }
+#content div  h3 span{display:inline-block; width:19px; height:19px; margin-left:10px; margin-bottom: 3px; vertical-align:middle; background:url(../images/sandwiches/icon_title_more.png) no-repeat; text-indent:-5000px;}
+
+#content .ddat_home{ width:1200px; margin:0 auto;}
+#content .green_sandwiches{ width:1200px; margin:0 auto 75px;}
+
+#content >div >ul {overflow:hidden;}
+#content >div >ul>li {position:relative;  float:left; width:220px; height:310px; margin:74px 10px 123px;  text-align:center;} 
+
+#content >div >ul>li dl {position:relative; width:220px; height:250px; }
+#content >div >ul>li dl dt {position:absolute; left:0; top:220px; width:100%; font-size:19px; color:#372317; text-align:center; }
+#content >div >ul>li dd { position:absolute; left:0; top:0;}
+#content >div >ul>li dd img{ width:220px;}
+#content >div >ul>li ul { overflow:hidden; width:220px; height:17px; margin-top:10px;}
+#content >div >ul>li ul li{ width:220px; float:left;}
+#content >div >ul>li ul li a{ color:#9d9d9d;}
+#content >div >ul>li button{position:absolute; left:50%; bottom:0; width:85px; margin-left:-42px; border:1px solid #d1cccb; padding:3px 4px 4px  25px; text-align:center; text-align:center;  background:#fff url(../images/sandwiches/icon_con_1.png) no-repeat 5% 50%;}
+
+
+
+
+
+
+
+
+
+
+
+
+

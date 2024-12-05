@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+
+
+
+
+#content{ padding-top:0;}
+#content .inner{width:1200px; margin:0 auto;}
+
+.inner .infomation{width:462px; height:27px; margin:70px auto 34px;  background:url(../images/nutritional/h2_nutrient.png); text-indent:-5000px; }
+.inner h3{ font-size:38px; font-weight:100; color:#372317 ; text-align:center;  }
+.inner h3 span{display:block; width:190px; height:20px; margin:0 auto; background:url(../images/nutritional/h_nutrient.png); }
+
+.inner .nutri_search {position:relative;  width:974px; height:290px; margin-top:50px; padding: 30px 166px 0 60px; background:url(../images/nutritional/form_bg.png);}
+.inner .nutri_search dl dt{ float:left; color:#39261f; font-weight:bold;}
+.inner .nutri_search dl dd{ float:left; }
+
+.inner .nutri_search .prod_tit{float:left;}
+.inner .nutri_search .prod_tit input{ width:348px; height:30px; border:1px solid #d1cccb }
+.inner .nutri_search .prod_tit dt{margin-right:27px; padding-top:7px;}
+
+.inner .nutri_search .component{ float:right;}
+.inner .nutri_search .component dt{margin-right:33px; padding-top:7px;}
+.inner .nutri_search .component dd {margin-left:2px;}
+.inner .nutri_search .component dd select{ width:150px; height:32px; border:1px solid #d1cccb }
+
+.inner .nutri_search .alle{position:absolute; top:70px; left:61px;  display:block; margin-top:40px;}
+.inner .nutri_search .alle dt{position:absolute; left:0; top:0; width:80px;}
+.inner .nutri_search .alle dd{position:absolute; left:65px; top:-5px; width:1000px;  font-size:13px; line-height:30px; color:#39261f; }
+.inner .nutri_search .alle dd label{position:relative; margin-right:24px;  }
+.inner .nutri_search .alle dd label:first-child{margin-left:0;}
+.inner .nutri_search .alle dd label input{margin-right:10px; margin-top:9px;}
+.inner .nutri_search .alle dd label span{position:absolute; left:0; top:0; display:inline-block;  width:17px; height:17px; margin-top:2px; background:url(../images/nutritional/icon_checkbox.png)}
+
+
+
+.inner .nutri_search p{position:absolute; left:125px; bottom:132px; font-size:12px; color:#75675c; letter-spacing:-0.08em}
+
+.inner .nutri_search button{position:absolute; bottom:40px; left:520px; width:160px; height:48px; background-color:#7a6e5f; border:0 none; font-size:12px; font-weight:bold; color:#fff;}
+
+.inner .total{text-align:center; color:#75675c; font-weight:bold;}
+.inner .total span{ color:#ff6000;}
+
+
+.search_results{ margin-top:13px;}
+.search_results>p{ width:1200px; height:27px; text-align:center; background:  url(../images/nutritional/line_title.png) no-repeat; color:#fff; line-height:27px; font-weight:bold; }
+.search_results table { border-bottom:2px solid #ffba00; border-collapse:collapse;}
+.search_results th{ padding:14px 0;  color:#ff9600;}
+.search_results td{ padding:14px 0; border-top:1px solid #bbbaba; color:#372317; text-align:center;}
+.search_results td.bg{ background-color:#f6f3ef}
+.search_results tr td:first-child {color:#75675c;}
+
+.search_results .btn{overflow:hidden; margin:28px auto 160px; width:580px}
+.search_results .btn a{display:block; float:left; width:46px; height:46px; margin:0 3px; line-height:46px; text-align:center; color:#000;}
+.search_results .btn .prev{background:url(../images/nutritional/btn_prev.png) no-repeat; text-indent:-5000px; }
+.search_results .btn .next{background:url(../images/nutritional/btn_next.png) no-repeat; text-indent:-5000px; }
+.search_results .btn .on{background:url(../images/nutritional/btn_bg.png) no-repeat; color:#fff;}
+
+
+
+
+
+
+
+

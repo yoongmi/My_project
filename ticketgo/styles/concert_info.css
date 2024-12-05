@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+#content{}
+#content .info{width:100%; height:445px; padding-top:20px; background-color:#302f4a; }
+#content .inner{width:1000px; margin:0 auto;  position:relative; border:7px solid #f2f2f7; height:408px; }
+#content .inner dl{ color:#f2f2f7; margin:40px 0 0 310px;}
+#content .inner dl dt{ font-size:26px;}
+#content .inner dl dd{ font-size:16px; margin-top:30px; width:610px; line-height:20px;}
+#content .inner>p{position:relative;  margin:25px 0 0 310px;  color:#f2f2f7; font-size:15px;}
+#content .inner>p span{position:absolute; top:0; left:80px;}
+
+#content .inner p.pic{position:absolute; left:33px; top:36px; margin:0 0 0 0;}
+#content .inner p.pic img{width:261px; height:335px;}
+
+#content .inner .dday{position:absolute; right:50px; bottom:120px; color:#f2f2f7;}
+#content .inner .dday p{width:100%; height:62px; color:#334356; font-size:30px; line-height:62px; text-align:center; background:url(../images/concert_info/dday_bar_bul.gif) no-repeat 33% 50%; }
+#content .inner .dday span{display:block; float:left; width:57px; height:62px; margin-right:35px; background-color:#f2f2f7; border-radius:10px;}
+#content .inner .dday em{display:block; float:left; width:57px; height:62px; margin-right:8px; background-color:#f2f2f7; border-radius:10px;}
+#content .inner .dday strong{display:block; float:left; width:57px; height:62px; background-color:#f2f2f7; border-radius:10px;}
+#content .inner button{position:absolute; right:14px; bottom:27px; width:324px; height:68px; background-color:#f3e4c8; font-size:27px; color:#334356}
+
+
+#content .tab_menu{overflow:hidden; width:1000px; height:150px; margin:40px auto 0;}
+#content .tab_menu>ul{position:relative;}
+#content .tab_menu>ul>li{float:left; width:248px; height:58px; text-align:center; line-height:58px; background-color:#d9d7e4; border:1px solid #f2f2f7 }
+#content .tab_menu>ul>li>a{ width:248px; height:58px; font-size:20px; }
+
+#content .tab_menu>ul>li>ul{ position:absolute; left:50%; top:80px; margin-left:-318px;  line-height:25px;}
+#content .tab_menu>ul>li>ul li{float:left;  }
+#content .tab_menu>ul>li>ul li a{padding:0 40px; line-height:15px; background:url(../images/concert_info/list_bul.gif) no-repeat; font-size:15px; color:#676698}
+#content .tab_menu>ul>li>ul li:first-child a{ background:none;}
+
+
+#content .tab_menu>ul>li>ul li:hover a{ color:#302f4a}
+#content .tab_menu>ul>li.on{background-color:#334356;}
+#content .tab_menu>ul>li.on>a{ color:#fff}
+
+
+
+#content .content_list{width:1000px; margin:0 auto 100px;}
+#content .content_list>div{background:url(../images/concert_info/title_line.png) no-repeat 0 15px;}
+
+#content .content_list h3{text-indent:-9999px; margin:30px 0 30px 125px;}
+
+#content .content_list .list01 h3{ width:130px; height:32px; background:url(../images/concert_info/title01_txt.gif) no-repeat}
+#content .content_list .list02 h3{width:130px; height:33px; background:url(../images/concert_info/title02_txt.gif) no-repeat}
+#content .content_list .list03 h3{width:130px; height:32px; background:url(../images/concert_info/title03_txt.gif) no-repeat}
+#content .content_list .list04 h3{width:168px; height:33px; background:url(../images/concert_info/title04_txt.gif) no-repeat; margin-left:110px;}
+#content .content_list .list05 h3{width:193px; height:31px; background:url(../images/concert_info/title05_txt.gif) no-repeat; margin-left:100px;}
+
+
+#content .content_list p{padding-left:10px;}
+
+#content .content_list .list03 p {margin:0 auto; width:700px;}
+
+#content .content_list .list05 table{width:959px; height:266px; border-collapse:collapse; border:1px solid #302f4a }
+#content .content_list .list05 table th{background-color:#f2f2f7; border:1px solid #302f4a; padding-left:10px; text-align:left;}
+#content .content_list .list05 table td{border:1px solid #302f4a; padding-left:10px;}
+
+

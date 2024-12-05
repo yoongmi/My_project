@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* reset */
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, address, table, th, td,
+caption, form, fieldset, legend, textarea, input, button { padding:0; margin:0;}
+
+img, fieldset{border:0 none;} /* img : IE 10이하 */
+
+h1, h2, h3, h4, h5, h6{ font-size:100%;}
+
+ul, ol, li {list-style:none;}
+
+address, em {font-style:normal;}
+
+ /* base */
+body{ font-size:12px; color:#444;}
+
+a { text-decoration:none; color:#444;}
+
+a:hover{text-decoration:underline;}
+
+button{cursor:pointer; border:0 none;}
+
+input, button{vertical-align:top;}
+
+strong{font-weight:100;}
+
+.screen_out{width:0; height:0; line-height:0; font-size:0; text-indent:-5000px;}
+/* 화면에 크기와 관련된 디자인은 가리고 음성브라우저가 읽기 가능 */
+
+
+#header {position:absolute;  z-index:50; width:100%; /* height:364px, 141; */ height:141px; background:url(../images/common/header_bg.png) repeat-x;}
+#header .inner { height:141px; background:url(../images/common/top_bg.jpg) repeat-x;}
+
+
+/*header top메뉴 */
+#header .top_area{ width:1283px;  margin:0 auto; overflow:hidden;}
+#header .top_area p{float:left; padding:9px 11px 8px; background-color:#373737;}
+#header .top_area p a{color:#fff;}
+#header .top_area p a img{ vertical-align:middle;}
+#header .top_area p a span{ padding-left:12px; font-size:13px; }
+
+#header .top_area ul{float:right;}
+#header .top_area ul li{float:left; width:36px; height:36px; text-align:center;  }
+
+#header .top_area ul .english {width:90px; height:36px; background-color:#373737;}
+#header .top_area ul .english a{width:90px; height:36px; line-height:36px; font-size:14px; color:#fff; }
+
+#header .top_area ul li a{ display:inline-block; width:36px; height:36px; vertical-align:middle; }
+#header .top_area ul li a img{ margin-top:11px;  }
+#header .top_area ul .facebook_go a img{ margin-top:9px;}
+
+#header .top_area ul .blog_go a{ background-color:#f9aa00;}
+#header .top_area ul .blog_go a:hover{ background-color:#d39000;}
+#header .top_area ul .facebook_go a{ background-color:#6380b1;}
+#header .top_area ul .facebook_go a:hover{ background-color:#446294;}
+#header .top_area ul .twitter_go a{ background-color:#5ad6f6;}
+#header .top_area ul .twitter_go a:hover{ background-color:#32b0d1;}
+
+
+
+
+/* 헤더 주메뉴 */
+#header h1{float:left; }
+#header .menu_area{position:relative; width:1280px; /*높이지정 height:305px, 82*/ height:82px; margin:0 auto; padding-top:23px; overflow:hidden; }
+#header .menu_area >ul{ float:left;  }
+#header .menu_area >ul >li{float:left; width:175px; height:305px;  }
+
+#header .menu_area >ul >li >a{ display:block; padding:23px 0 35px; font-size:24px; font-weight:bold; line-height:24px; color:#1f2c31; text-align:center; }
+#header .menu_area >ul >li >a:hover{text-decoration:none;}
+#header .menu_area >ul >.menu1:hover>a{ color:#1967a0;}
+#header .menu_area >ul >.menu2:hover>a{ color:#ffa347;}
+#header .menu_area >ul >.menu3:hover>a{ color:#19c0ee;}
+#header .menu_area >ul >.menu4:hover>a{ color:#69bb45;}
+#header .menu_area >ul >.menu5:hover>a{ color:#e34168;}
+
+#header .menu_area >ul > .on ul{background:rgba(28,130,203,0.75);}
+
+#header .menu_area >ul >li >ul{ width:100%; height:100%; }
+#header .menu_area >ul >li >ul >li{ padding-top:14px;}
+#header .menu_area >ul >li >ul >li:first-child{padding-top:25px;}
+#header .menu_area >ul >li >ul >li a{padding-left: 19px; font-size:13px; line-height:13px; color:#fff; }
+
+
+#header .menu_area fieldset{position:absolute; top:41px; right:0; float:right; width:53px; height:36px; background:url(../images/common/totalsearch_bg1.png) no-repeat 100% 0; }
+#header .menu_area fieldset p{position:absolute; right:20px; top:0; width:0; height:36px;background:url(../images/common/input_bg1.png) no-repeat 0 0}
+
+#header .menu_area fieldset input{position:absolute; right:20px; top:2px; display:none; width:250px; height:30px; border:0 none; padding-left:10px; color:#fff; background-color:#0b8dda;}
+
+#header .menu_area fieldset span{position:absolute; top:8px; right:16px;  width:21px; height:21px; text-indent:-5000px; background:url(../images/common/totalsearch_ico.png) no-repeat ; cursor:pointer }
+
+#header .menu_area fieldset button.find{position:absolute; top:8px; right:40px; display:none;  width:21px; height:21px; text-indent:-5000px; background:url(../images/common/totalsearch_ico.png) no-repeat ;}
+
+#header .menu_area fieldset button.cancel{position:absolute; top:8px; right:16px; display:none; width:21px; height:21px; text-indent:-5000px; background:url(../images/common/totalsearch_close.png) no-repeat ;}
+
+
+
+
+#content{ padding-top:141px; z-index:10; overflow:hidden;}
+#banner{ padding-top:141px; z-index:10; overflow:hidden;}
+
+
+
+#footer{ width:100%; background-color:#f7f7f7;}
+#footer .inner{ width:1280px; height:127px; margin:0 auto; background:url(../images/common/footer_logo.png) no-repeat 0 50%;}
+#footer .inner ul{ overflow:hidden; padding:29px 0 0 140px;}
+#footer .inner ul li{ float:left; padding:0 14px; background:url(../images/common/footer_m_bul.gif) no-repeat 0 70%; }
+#footer .inner ul li:first-child{padding-left:0; background-image:none;}
+#footer .inner ul li:first-child a{color:#1e659f;}
+#footer .inner ul li a{}
+#footer .inner address{padding:20px 0 0 140px;}
+#footer .inner address em{ padding:0 14px;}
+#footer .inner address strong{font-size:16px; color:#e5656a;}
+#footer .inner address span{ display:block;}
+
+
+ .topButton button{position:fixed; right:20px; bottom:20px; width:42px; height:42px; border:1px solid #d3d3d3; text-indent:-9999px;
+background:#fff url(../images/main/floating_top_btn.gif) no-repeat 50% 50%; z-index:60; }
+
+
+#quickmenu{position:absolute; right:10px; top:40%; width:130px; z-index:80; background-color:#fff; border:3px solid #0b8dda;}
+#quickmenu ul .on a{color:#0b8dda; font-weight:bold;}
+#quickmenu ul li{font-size:17px;  cursor:pointer;}
+#quickmenu ul li a{display:block; width:110px; padding:10px;}
+#quickmenu ul li img{ width:130px;}
+#quickmenu ul li:hover a{ text-decoration:none;}
+#quickmenu ul li:first-child{ height:163px; border-bottom:3px solid #0b8dda ; padding:0; background-color:#0b8dda; color:#fff; font-size:12px;}
+
+
+
+
+
+

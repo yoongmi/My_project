@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+/* 메뉴 */
+
+
+.lnb ul> li> ul> li> ul{display:none;}
+.lnb ul> li> ul> .group a span {display:inline-block; float:right;  width:6px; height:8px; margin:8px 5px 0; background:url(../images/sub_common/ico01.png) no-repeat -35px -42px;}
+
+
+.sec_info h3 { margin-bottom:34px;}
+
+.sec_info .list_notice{ position:relative; width:793px; height:207px; margin-bottom: 30px; border:1px solid #f0f0f0; background-color:#f7f7f7;}
+.sec_info .list_notice> strong{ position:absolute; top:26px; left:41px; float:left; width:62px; height:48px; text-align:center; font-weight:bold;}
+.sec_info .list_notice> strong> span{display:inline-block; width:51px; height:43px; background:url(../images/info_list/img_noti.gif) no-repeat; }
+.sec_info .list_notice em{ position:absolute; left:128px; top:31px; float:left; width:545px; font-size:13px;}
+.sec_info .list_notice a{position:absolute; left:327px; bottom:24px; width:200px; height:54px;  background-color:#1f9ad3; text-align:center;}
+.sec_info .list_notice a span{color:#fff; font-size:15px; line-height:54px; }
+.sec_info .list_notice a:hover {text-decoration:none;}
+.sec_info .list_notice a span strong{position:absolute; top:22px; right:39px; display:inline-block; width: 12px; height:12px; text-indent:-5000px; background:url(../images/info_list/plus_btn.png);  }
+
+
+.sec_info fieldset{overflow:hidden ;position:relative; width:793px; height:136px; margin-bottom:30px; border:1px solid #f0f0f0; background-color:#f7f7f7;}
+
+.sec_info fieldset dl{width:650px; overflow:hidden; margin-top:5px;}
+.sec_info fieldset dl dt{float:left; margin-left:15px; font-size:13px; font-weight:bold; line-height:32px;}
+.sec_info fieldset dl dd{ float:left;}
+.sec_info fieldset dl dd select{width:157px; height:32px; border:1px solid #dddddd;}
+.sec_info fieldset .date dd input{width:157px; height:30px; border:1px solid #dddddd;}
+.sec_info fieldset .tit dd input{width:250px; height:30px; border:1px solid #dddddd;}
+
+
+.sec_info fieldset .division { margin-top:15px;}
+.sec_info fieldset .division dd{ margin-left:81px; }
+.sec_info fieldset .date dt{ margin-right:81px;}
+.sec_info fieldset .date dd{ line-height:31px;}
+.sec_info fieldset .tit dd{ margin-left:94px;}
+.sec_info fieldset button{position:absolute; right:30px; top:25px; width:82px; height:74px; background-color:#047ab3; color:#fff; font-size:13px; font-weight:bold;}
+.sec_info fieldset button span{display:inline-block; width:21px; height:21px; background:url(../images/info_list/totalsearch_ico.png)}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>예매하기 | 티켓GO</title>
+<link rel="stylesheet" type="text/css" href="styles/common.css" />
+<link rel="stylesheet" type="text/css" href="styles/reserve.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript" src="scripts/reserve.js"></script>
+</head>
+
+<body>
+<div id="monthly">
+	<p><a href="">MONTHLY TICKET<span></span></a></p>
+	<ul>
+		<li>
+			<dl>
+				<dt>뮤지컬&#60레베카&#62</dt>
+				<dd class="date">2017.08.10 ~ 2017.11.18</dd>
+				<dd class="place">블루스퀘어 삼성전자홀</dd>
+				<dd class="pic"><img src="images/common/musical_poster_03.gif" /></dd>
+			</dl>
+			<p><a href="">상세보기</a></p>
+		</li>
+		<li>
+			<dl>
+				<dt>뮤지컬&#60서편제&#62</dt>
+				<dd class="date">2017.08.30 ~ 2017.11.05</dd>
+				<dd class="place">광림아트센터 BBCH홀</dd>
+				<dd class="pic"><img src="images/common/musical_poster_10.gif" /></dd>
+			</dl>
+			<p><a href="">상세보기</a></p>
+		</li>
+		<li>
+			<dl>
+				<dt>연극&#60사랑해요 당신&#62</dt>
+				<dd class="date">2017.09.29 ~ 2017.10.29</dd>
+				<dd class="place">대학로 예그린씨어터</dd>
+				<dd class="pic"><img src="images/common/play_poster_06.gif" /></dd>
+			</dl>
+			<p><a href="">상세보기</a></p>
+		</li>
+	
+	</ul>
+</div>
+
+<div id="header">
+	<div class="middle">
+		<div class="language">
+			<ul>
+				<li class="on"><a href="">KR</a></li>
+				<li><a href="">EN</a></li>
+				<li><a href="">JP</a></li>
+				<li><a href="">CN</a></li>
+			</ul>
+		</div>
+		<h1><a href=""><img src="images/common/h1_logo.png"/></a></h1>
+		<div class="side_menu">
+			<ul>
+				<li><a href="">로그인</a></li>
+				<li><a href="">고객센터</a></li>
+				<li class="search"><a href="">검색</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<h2 class="screen_out">주메뉴</h2>
+	<ul class="gnb">
+		<li class="menu01">
+			<a href="">뮤지컬</a>
+			<ul>
+				<li><a href="">라이선스</a></li>
+				<li><a href="">내한공연</a></li>
+				<li><a href="">창작뮤지컬</a></li>
+			</ul>
+		</li>
+		<li class="menu02">
+			<a href="">콘서트</a>
+			<ul>
+				<li><a href="">국내가수</a></li>
+				<li><a href="">내한공연</a></li>
+				<li><a href="">페스티벌</a></li>
+				<li><a href="">토크/강연</a></li>
+			</ul>
+		</li>
+		<li class="menu03">
+			<a href="">연극</a>
+			<ul>
+				<li><a href="">로맨틱</a></li>
+				<li><a href="">코믹</a></li>
+				<li><a href="">스릴러</a></li>
+				<li><a href="">드라마</a></li>
+			</ul>
+		</li>
+		<li class="menu04">
+			<a href="">클래식/무용</a>
+			<ul>
+				<li><a href="">클래식</a></li>
+				<li><a href="">오페라</a></li>
+				<li><a href="">발레/무용</a></li>
+				<li><a href="">국악</a></li>
+			</ul>
+		</li>
+		<li class="menu05">
+			<a href="">스포츠/레저</a>
+			<ul>
+				<li><a href="">프로야구</a></li>
+				<li><a href="">프로축구</a></li>
+				<li><a href="">프로농구</a></li>
+				<li><a href="">프로배구</a></li>
+				<li><a href="">레저</a></li>
+			</ul>
+		</li>
+		<li class="menu06">
+			<a href="">전시/행사</a>
+			<ul>
+				<li><a href="">전시</a></li>
+				<li><a href="">행사/축제</a></li>
+			</ul>
+		</li>
+		<li class="menu07">
+			<a href="">아동/가족</a>
+			<ul>
+				<li><a href="">뮤지컬</a></li>
+				<li><a href="">연극</a></li>
+				<li><a href="">클래식</a></li>
+				<li><a href="">체험</a></li>
+			</ul>
+		</li>
+		<li class="last menu08"><a href="">랭킹</a></li>
+		<li class="last menu09"><a href="">맞춤공연</a></li>
+	</ul>
+
+
+	<div class="search_box">
+		<form action="" method="post">
+			<fieldset>
+				<legend></legend>
+				<dl>
+					<dt>search</dt>
+					<dd>
+						<input type="text" id="search_space" name="search_space" value="검색어를 입력하세요"/>
+					</dd>
+				</dl>
+				<button type="submit" class="search_btn">검색</button>
+				<button type="button" class="close_btn">닫기</button>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<div class="naming">
+	<ul>
+		<li><img src="images/common/logo_black.png" /></li>
+		<li><a href="index.html">메인페이지</a></li>
+		<li><a href="concert.html">콘서트목록</a></li>
+		<li><a href="concert_info.html">콘서트정보</a></li>
+		<li class="on"><a href="reserve.html">예매하기</a></li>
+		<li><a href="login.html">로그인</a></li>
+		<li><a href="myticket.html">나의티켓</a></li>
+	</ul>
+</div>
+<!-- header 끝 -->
+
+
+<div id="content">
+	<div class="info_box">
+		<dl>
+			<dt>2017 김연우 크리스마스 콘서트 &#60오마이갓연우&#62</dt>
+			<dd class="txt">9회 연속 전회 전석 매진 신화! 지금까지 만난 관객수만 무려 16만명! 공연 하나로 역대급 신화를 쓰고 있는 남자우리는 그를 '김연우'라 쓰고 '연우신','갓연우'라 부른다. 라이브로 경험할 수 있는 모든 것! 겨울의 백미, 크리스마스에만 열리는 절대 공연이 펼쳐진다. 당신이 기다려 온 놀라운 크리스마스!</dd>
+			<dd class="pic"><img src="images/reserve/concert_poster.gif" /></dd>
+		</dl>
+	</div>
+
+	<div class="left_box">
+		<div class="date">
+			<ul>
+				<li class="date01">
+					<span>날짜선택</span>
+					<ul>
+						<li>2017년 12월 22일</li>
+						<li>2017년 12월 23일</li>
+						<li>2017년 12월 24일</li>
+						<li>2017년 12월 25일</li>
+					</ul>
+				</li>
+				<li class="date02">
+					<span>회차선택</span>
+					<ul>
+						<li>19시 00분</li>
+					</ul>
+				</li>
+				<li class="date03">
+					<span>예매가능 좌석</span>
+					<ul>
+						<li>SR석 1000석</li>
+						<li>R석 2000석</li>
+						<li>S석 4000석</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="sit">
+			<p>좌석선택</p>
+			<p class="sit_select"><img src="images/reserve/sit.png" /></p>
+		</div>
+		<div class="pay">
+			<table summary="할인적용, 결제수단 순으로 알려줌.">
+				<legend class="screen_out">할인적용,결제수단</legend>
+				<thead>
+					<tr>
+						<th scope="col">할인적용</th>
+						<th scope="col">결제수단</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="sale">
+							<form action="" method="post">
+								<fieldset>
+									<input type="text" id="coupon" name="coupon" class="coupon" value="쿠폰 또는 예매권의 번호를 넣어주세요"/>
+								</fieldset>
+							</form>
+							<button type="button" class="btn01">등록</button>
+							<p>보유포인트 0P</p>
+							<form action="" method="post">
+								<fieldset>
+									<dl class="point">
+										<dt>사용포인트</dt>
+										<dd><input type="text" id="point" name="point" title="1000원 단위만 사용 가능합니다."  /></dd>
+									</dl>
+								</fieldset>
+							</form>
+							<button type="button" class="btn02">적용</button>
+						</td>
+						<td class="cash">
+							<form action="" method="post">
+								<fieldset>
+									<p>
+										<label for="card"><input type="radio" id="card" name="payment" /><span>신용카드</span></label>
+										<label for="bank"><input type="radio" id="bank" name="payment" /><span>무통장입금</span></label>
+									</p>
+									<dl class="kind">
+										<dt>카드종류</dt>
+										<dd>
+											<select id="card_list" name="card_list">
+												<option value="">KB국민카드</option>
+												<option value="">BC카드</option>
+												<option value="">롯데카드</option>
+												<option value="">현대카드</option>
+												<option value="">외환카드</option>
+												<option value="">삼성카드</option>
+												<option value="">우리카드</option>
+												<option value="">신한카드</option>
+											</select>
+										</dd>
+									</dl>
+									<dl class="divi">
+										<dt>카드구분</dt>
+										<dd>
+											<input type="radio" id="card01" name="card" /><label for="card01"><span>개인카드</span></label>
+											<input type="radio" id="card02" name="card" /><label for="card02"><span>법인카드</span></label>
+										</dd>
+									</dl>
+								</fieldset>
+							</form>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="ticket">
+			<table summary="티켓 수령을 정하는 테이블.">
+				<thead>
+					<tr>
+						<th scope="col">티켓수령</th>
+						<th scope="col">
+							<form action="" method="post">
+								<label for="ticket01"><input type="radio" id="ticket01" name="ticket" />현장수령</label>
+								<label for="ticket02"><input type="radio" id="ticket02" name="ticket" />배송(3,000원)</label>
+							</form>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td colspan="2">예매번호<span>T83281372345E</span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="right_box">
+		<div class="right_inner">
+			<div class="ticket_info">
+				<p>티켓정보</p>
+				<dl class="TInfo01">
+					<dt>날짜</dt>
+					<dd>2017년 12월 24일</dd>
+				</dl>
+				<dl class="TInfo02">
+					<dt>회차</dt>
+					<dd>19시 00분</dd>
+				</dl>
+				<dl class="TInfo03">
+					<dt>좌석</dt>
+					<dd>SR석 가구역 11열-7</dd>
+				</dl>
+			</div>
+			<div class="pay_info">
+				<p>결제정보</p>
+				<dl class="PInfo01">
+					<dt>티켓금액</dt>
+					<dd>146,000원</dd>
+				</dl>
+				<dl class="PInfo02">
+					<dt>수수료</dt>
+					<dd>1,000원</dd>
+				</dl>
+				<dl class="PInfo03">
+					<dt>배송비</dt>
+					<dd>0원</dd>
+				</dl>
+				<dl class="line01 PInfo04">
+					<dt>쿠폰/예매권</dt>
+					<dd>-0원</dd>
+				</dl>
+				<dl class="PInfo05">
+					<dt>포인트</dt>
+					<dd>-0원</dd>
+				</dl>
+				<dl class="line01 total PInfo06">
+					<dt>총결제금액</dt>
+					<dd>144,000원</dd>
+				</dl>
+			</div>
+		</div>
+		<button type="button">결제하기</button>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="footer_top">
+		<ul>
+			<li><a href="">회사소개</a></li>
+			<li><a href="">개인정보처리방침</a></li>
+			<li><a href="">청소년보호정책</a></li>
+			<li><a href="">이메일주소무단수집거부</a></li>
+			<li><a href="">파트너센터</a></li>
+			<li><a href="">고객센터</a></li>
+		</ul>
+	</div>
+
+	<ul class="sns">
+		<li class="kakao"><a href=""><img src="images/common/sns_kakao.png" alt="kakaotalk"/></a></li>
+		<li class="blog"><a href=""><img src="images/common/sns_blog.png" alt="blog"/></a></li>
+		<li class="twitter"><a href=""><img src="images/common/sns_twitter.png" alt="twitter"/></a></li>
+		<li class="facebook"><a href=""><img src="images/common/sns_facebook01.png" alt="facebook"/></a></li>
+		<li class="insta"><a href=""><img src="images/common/sns_insta.png" alt="insta"/></a></li>
+	</ul>
+
+	<address>Copyright&#169 2017 TICKETGO. ALL right reserved.</address>
+	<p><img src="images/common/footer_logo.png"/></p>
+</div>
+</body>
+</html>

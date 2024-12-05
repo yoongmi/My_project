@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* reset */
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, address, table, th, td,
+caption, form, fieldset, legend, textarea, input, button { padding:0; margin:0;}
+
+img, fieldset{border:0 none;} /* img : IE 10이하 */
+
+h1, h2, h3, h4, h5, h6{ font-size:100%;}
+
+ul, ol, li {list-style:none;}
+
+address, em {font-style:normal;}
+
+ /* base */
+body{ font-size:12px;}
+
+a { text-decoration:none; color:#333; }
+
+a:hover{text-decoration:none;}
+
+button{cursor:pointer;}
+
+input, button{vertical-align:top;}
+
+.screen_out{width:0; height:0; line-height:0; font-size:0; text-indent:-5000px;}
+/* 화면에 크기와 관련된 디자인은 가리고 음성브라우저가 읽기 가능 */

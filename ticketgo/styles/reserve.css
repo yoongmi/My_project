@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+
+
+
+#content{overflow:hidden; width:1000px; margin:0 auto 70px;}
+#content .info_box{width:990px; height:260px; margin:50px auto 70px; border:5px solid #302f4a;}
+#content .info_box dl{position:relative; }
+#content .info_box dl dt{position:absolute; left:226px; top:48px; font-size:28px;}
+#content .info_box dl dd.txt{position:absolute; left:226px; top:120px; font-size:18px; padding-right:20px; line-height:23px;}
+#content .info_box dl dd.pic{position:absolute; left:10px; top:8px;}
+#content .info_box dl dd.pic img{width:190px; height:244px;}
+
+
+#content .left_box{position:relative; float:left; width:600px;}
+#content .left_box .date>ul{overflow:hidden; width:597px; height:229px; border:1px solid #e0e0df; text-align:center; font-size:15px; color:#302f4a; background-color:#f2f2f7}
+#content .left_box .date>ul>li{float:left; width:199px;}
+#content .left_box .date>ul>li>span{display:block; width:199px; height:43px; border-bottom:1px solid #e0e0df; line-height:43px; background-color:#fff; }
+#content .left_box .date>ul>li ul{}
+#content .left_box .date>ul>li ul li{width:199px; height:47px; line-height:47px; cursor:pointer;}
+
+#content .left_box .date>ul>li:first-child ul{border-right:1px solid #e0e0df}
+#content .left_box .date>ul>li ul li:hover{background-color:#fff;}
+#content .left_box .date>ul>li ul li.on{background-color:#fff}
+
+#content .left_box .sit{border:1px solid #e0e0df; width:597px; margin-top:30px}
+#content .left_box .sit p{height:43px; text-align:center; line-height:43px; font-size:16px; border-bottom:1px solid #e0e0df}
+#content .left_box .sit .sit_select{height:450px; padding-top:20px; background-color:#f2f2f7 }
+
+
+#content .left_box .pay{width:597px; border:1px solid #e0e0df; margin-top:30px;}
+#content .left_box .pay table{  border-collapse:collapse;}
+#content .left_box .pay th{width:299px; height:43px; line-height:43px; font-size:16px; border-bottom:1px solid #e0e0df;}
+#content .left_box .pay th:first-child{border-right:1px solid #e0e0df}
+#content .left_box .pay td{ height:132px; background-color:#f2f2f7;}
+#content .left_box .pay td:first-child{border-right:1px solid #e0e0df}
+
+#content .left_box .pay .sale{position:relative; padding-left:8px;}
+#content .left_box .pay .sale input.coupon{position:absolute; top:16px; left:10px; width:215px; height:24px; border:1px solid #e0e0df; padding-left:5px; color:#c2c1c1; font-size:11px;}
+#content .left_box .pay .sale button.btn01{position:absolute; top:16px; right:19px; width:44px; height:26px; background-color:#302f4a; color:#f2f2f7 }
+
+#content .left_box .pay .sale p{position:absolute; top:65px; left:10px; }
+
+#content .left_box .pay .sale dl{position:absolute; top:90px; left:10px; line-height:24px; }
+#content .left_box .pay .sale dl input{position:absolute; left:73px; top:0; width:148px; height:24px; border:1px solid #e0e0df}
+#content .left_box .pay .sale .btn02{position:absolute; right:18px; bottom:16px; width:44px; height:26px; background-color:#302f4a; color:#f2f2f7}
+
+#content .left_box .pay .cash{position:relative; }
+#content .left_box .pay .cash p{position:absolute; left:0; top:12px; width:100%; text-align:center;}
+#content .left_box .pay .cash p label{padding:0 15px;}
+#content .left_box .pay .cash p span{padding-left:5px;}
+#content .left_box .pay .cash .kind{position:absolute; left:18px; top:47px;  }
+#content .left_box .pay .cash .kind dt{line-height:23px;}
+#content .left_box .pay .cash .kind dd{position:absolute; left:69px; top:0;}
+#content .left_box .pay .cash .kind dd select{ width:170px; height:23px;}
+
+#content .left_box .pay .cash .divi{position:absolute; left:18px; top:85px;}
+#content .left_box .pay .cash .divi dt{}
+#content .left_box .pay .cash .divi dd{position:absolute; left:69px; top:0; width:150px;}
+#content .left_box .pay .cash .divi span{padding:0 3px;}
+
+
+#content .left_box .ticket{margin-top:30px;}
+#content .left_box .ticket table{ width:598px; border:1px solid #e0e0df; border-collapse:collapse}
+#content .left_box .ticket th{width:299px; height:43px; border-bottom:1px solid #e0e0df; font-size:14px;}
+#content .left_box .ticket th:first-child{font-size:16px;}
+#content .left_box .ticket input{width:30px;}
+#content .left_box .ticket label:first-child{margin-right:15px;}
+#content .left_box .ticket td{height:60px; padding-left:20px; background-color:#f2f2f7; font-size:13px;}
+#content .left_box .ticket td span{padding-left:40px;}
+
+
+#content .right_box{position:relative; float:left; margin-left:58px;}
+#content .right_box .right_inner{ width:300px; height:438px; padding:20px; background-color:#f3e4c8; }
+#content .right_box .right_inner .ticket_info{ padding-left:16px; border-bottom:2px solid #302f4a}
+#content .right_box .right_inner div p{font-size:20px; color:#302f4a; margin :10px 0 25px;}
+#content .right_box .right_inner div dl{overflow:hidden; margin-bottom:16px; font-size:15px;}
+#content .right_box .right_inner .ticket_info dt{float:left; }
+#content .right_box .right_inner .ticket_info dd{float:left; margin-left:40px;}
+
+#content .right_box .right_inner .pay_info{padding:0 16px;}
+#content .right_box .right_inner .pay_info p{ margin-top:25px;}
+#content .right_box .right_inner .pay_info dl{overflow:hidden; }
+#content .right_box .right_inner .pay_info dt{float:left;}
+#content .right_box .right_inner .pay_info dd{float:right;}
+
+#content .right_box .right_inner .pay_info .line01{border-top:2px solid #f2f2f7; padding-top:16px;}
+#content .right_box .right_inner .pay_info .total{font-size:18px;}
+#content .right_box button{ width:340px; height:77px; margin-top:10px; background-color:#302f4a; font-size:20px; color:#f2f2f7}
+
+#quick_menu{display:none;}

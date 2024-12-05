@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+#content{overflow:hidden; width:1000px; margin:0 auto;}
+#content h3{position:relative; width:1000px; height:25px; margin:75px 0 50px; background:url(../images/myticket/title_line.png) no-repeat 0 50%; font-size:20px; text-align:center; }
+
+#content h3 span{position:absolute; top:0; left:50%; width:127px; height:29px; margin-left:-60px; text-indent:-9999px; background:url(../images/myticket/h4_txt.png) no-repeat;}
+
+
+#content .lnb{float:left; width:270px;}
+#content .lnb ul{}
+#content .lnb ul li{position:relative; width:250px; height:72px; padding:0 10px; background-color:#302f4a; border-bottom:1px solid #f2f2f7}
+#content .lnb ul li a{display:block; width:240px; height:72px; padding-left:20px; font-size:20px; color:#f2f2f7; line-height:72px;}
+#content .lnb ul li:hover{ background-color:#f3e4c8; }
+#content .lnb ul li:hover a{color:#302f4a;}
+#content .lnb ul li:hover span{position:absolute; right:-28px; top:28%; display:block; width:28px; height:32px; background:url(../images/myticket/lnb_bg.png) no-repeat}
+
+
+#content .lnb ul li.on{background-color:#f3e4c8;}
+#content .lnb ul li.on a{color:#302f4a}
+#content .lnb ul li.on span{position:absolute; right:-28px; top:28%; display:block; width:28px; height:32px; background:url(../images/myticket/lnb_bg.png) no-repeat}
+
+
+
+#content .reserve_list{float:left; width:630px; padding:50px; margin-bottom:100px; background-color:#f2f2f7;}
+#content .reserve_list h4{ font-size:20px;}
+#content .reserve_list table{width:630px; margin-top:30px; border-top:1px solid #302f4a; border-bottom:2px solid #302f4a; border-collapse:collapse; background-color:#fff;}
+#content .reserve_list th{ height:34px; background-color:#d9d7e4; border-left:1px solid #f2f2f7}
+#content .reserve_list tr{border-top:1px solid #e0e0df}
+#content .reserve_list tr:first-child{border-top:0 none;}
+
+#content .reserve_list td{text-align:center; border-left:1px solid #e0e0df;}
+#content .reserve_list td:first-child{border-left:0 none;}
+#content .reserve_list td img{float:left; width:62px; height:80px; margin:5px; vertical-align:middle;}
+#content .reserve_list td.pic span{ float:left; width:120px; margin-top:35px;}
+#content .reserve_list tr td.date>span{display:block;}
+
+#content .reserve_list tr.more01{overflow:hidden; height:17px;}
+#content .reserve_list tr.more01 td{position:relative; text-align:left;}
+#content .reserve_list tr.more01 td p{position:relative; width:100%; background-color:#302f4a; color:#f2f2f7; text-align:center; line-height:16px;}
+#content .reserve_list tr.more01 td p span{position:absolute; left:55%; top:22%; display:block; width:10px; height:9px; background:url(../images/myticket/more_btn.png) no-repeat}
+
+#content .reserve_list tr.more01 td>ul{display:none;}
+#content .reserve_list tr.more01 td>ul>li{float:left; height:69px; padding:5px 0 0 25px; font-size:14px;}
+#content .reserve_list tr.more01 td>ul>li.info01{ width:152px; border-right:1px solid #676698}
+#content .reserve_list tr.more01 td>ul>li.info01 span{ padding-left:15px}
+#content .reserve_list tr.more01 td>ul>li.info02{position:relative; width:323px; border-right:1px solid #676698}
+#content .reserve_list tr.more01 td>ul>li>span{display:block;}
+#content .reserve_list tr.more01 td>ul>li.info02 ul{width:125px;}
+#content .reserve_list tr.more01 td>ul>li.info02 ul li span{float:right;}
+#content .reserve_list tr.more01 td>ul>li>ul{margin-top:10px; font-size:12px;}
+#content .reserve_list tr.more01 td>ul>li>ul.cashInfo01{position:absolute; left:25px; top:17px;}
+#content .reserve_list tr.more01 td>ul>li>ul.cashInfo02{position:absolute; left:200px; top:17px;}
+#content .reserve_list tr.more01 td>ul>li.info03{ height:44px; padding-top:19px;}
+#content .reserve_list tr.more01 td>ul>li.info03 span{padding-top:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

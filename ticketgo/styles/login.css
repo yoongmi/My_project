@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+
+
+
+#content{background-color:#f2f2f7;}
+#content .login{ width:517px; margin:0 auto; padding-top:130px; padding-bottom:100px;}
+#content .login .login_top{overflow:hidden; position:relative; margin-bottom:50px;}
+#content .login .login_top h3{ font-size:48px; text-align:center;}
+#content .login .login_top p{ font-size:20px; text-align:center; margin-top:25px;}
+#content .login .login_top .in_box{overflow:hidden; position:relative;  width:380px; height:127px; margin-top:40px; border:1px solid #e0e0df; border-radius:10px;}
+#content .login .login_top dl{position:absolute;top:0; left:0;}
+#content .login .login_top dl.pw{top:64px;}
+#content .login .login_top dt{position:absolute; top:37%; left:17px; font-size:17px; color:#e0e0df}
+#content .login .login_top dd{width:380px; height:63px; background-color:#fff;}
+#content .login .login_top dd input{ width:350px; height:63px; padding:0 15px; font-size:17px;}
+#content .login .login_top button{position:absolute; left:50%; top:133px; width:129px; height:129px; margin-left:129px; background-color:#302f4a; font-size:20px; color:#f2f2f7; border-radius:10px;}
+#content .login .login_top .save{float:left; width:400px; margin-top:10px; padding-left:10px; color:#676698}
+
+#content .login .login_top ul{float:right;}
+#content .login .login_top ul li{float:left; padding:0 7px; }
+#content .login .login_top ul li a{ color:#676698;}
+#content .login .login_top ul li:first-child{border-right:1px solid #676698 }
+
+
+
+#content .login>ul{}
+#content .login>ul li{position:relative; width:514px; height:71px; margin-top:15px; text-align:center; background-color:#fff;}
+#content .login>ul li a{display:block; width:514px; height:71px; font-size:20px; line-height:71px;}
+
+#content .login>ul li span{position:absolute; left:135px; top:18px; display:block; width:35px; height:35px; }
+#content .login>ul li.kakao{border:2px solid #f3e401;}
+#content .login>ul li.kakao span{background:url(../images/common/sns_kakao.png) no-repeat;  background-size:100% 100%;}
+#content .login>ul li.facebook{border:2px solid #345a9b;}
+#content .login>ul li.facebook span{ top:21px; width:28px; height:28px; background:url(../images/common/sns_facebook02.png) no-repeat;  background-size:100% 100%;}
+#content .login>ul li.twitter{border:2px solid #56abec;}
+#content .login>ul li.twitter span{background:url(../images/common/sns_twitter.png) no-repeat;  background-size:100% 100%;}
+
+
+#content .login>button{width:517px; height:88px; margin-top:30px; background:url(../images/login/join_btn.png) no-repeat; text-indent:-9999px}
+
+
+

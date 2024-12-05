@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#content{ width:1200px; margin:0 auto; padding-top:0; }
+
+#content .info{ width:940px; margin:0 auto;}
+
+.info .info_left .thum {width:98px; height:98px; border:1px solid #ffba00;}
+
+#content .review{ width:940px; margin:0 auto;}
+#content .hashtags{ width:940px; margin:0 auto;}
+
+
+
